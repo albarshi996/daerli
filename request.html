@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نموذج الطلب - داورلي</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- قائمة التنقل -->
+  <nav>
+    <div class="logo">داورلي</div>
+    <ul class="nav-links">
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="how-it-works.html">كيف يعمل</a></li>
+      <li><a href="features.html">الميزات</a></li>
+      <li><a href="request.html">الطلب</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+  </nav>
+
+  <!-- قسم نموذج الطلب -->
+  <section class="request-section fade-in-up">
+    <h2>أرسل طلبك الآن</h2>
+    <p class="section-intro">املأ النموذج أدناه أو تواصل معنا مباشرة</p>
+    
+    <div class="form-container">
+      <form class="request-form">
+        <div class="form-group">
+          <label for="name"><i class="fas fa-user"></i> الاسم الكامل</label>
+          <input type="text" id="name" placeholder="أدخل اسمك الكامل" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone"><i class="fas fa-phone"></i> رقم الهاتف</label>
+          <input type="tel" id="phone" placeholder="09xxxxxxxx" required>
+        </div>
+
+        <div class="form-group">
+          <label for="city"><i class="fas fa-map-marker-alt"></i> المدينة</label>
+          <input type="text" id="city" placeholder="مدينتك" required>
+        </div>
+
+        <div class="form-group">
+          <label for="product"><i class="fas fa-box"></i> تفاصيل المنتج المطلوب</label>
+          <textarea id="product" rows="5" placeholder="اكتب تفاصيل المنتج أو الخدمة التي تريدها..." required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="image"><i class="fas fa-image"></i> صورة المنتج (اختياري)</label>
+          <input type="file" id="image" accept="image/*">
+        </div>
+
+        <button type="submit" class="submit-btn">
+          <i class="fas fa-paper-plane"></i> إرسال الطلب
+        </button>
+      </form>
+
+      <!-- وسائل التواصل المباشر -->
+      <div class="direct-contact">
+        <h3>أو تواصل معنا مباشرة</h3>
+        <div class="contact-buttons">
+          <a href="https://wa.me/218918014512" class="contact-btn whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i> واتساب
+          </a>
+          <a href="https://www.facebook.com/share16JEUw1tZk" class="contact-btn facebook" target="_blank">
+            <i class="fab fa-facebook"></i> فيسبوك
+          </a>
+          <a href="tel:0918014512" class="contact-btn phone">
+            <i class="fas fa-phone"></i> اتصل بنا
+          </a>
+          <a href="mailto:Albarshi.96@gmail.com" class="contact-btn email">
+            <i class="fas fa-envelope"></i> البريد
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- التذييل -->
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; 2025 داورلي</p>
+    <div class="social-links">
+      <a href="https://wa.me/218918014512" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.facebook.com/share16JEUw1tZk" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="mailto:Albarshi.96@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
